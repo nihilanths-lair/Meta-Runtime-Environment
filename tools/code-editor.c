@@ -8,18 +8,18 @@ void CodeEditor();
 int main(int argc, char *argv[])
 {
     setlocale(0, "");
-    printf(" Количество аргументов: %u\n", argc);
-    for (int i = 0; i < argc; i++) printf(" Аргумент %u: %s\n", i+1, argv[i]);
+    printf(" РљРѕР»РёС‡РµСЃС‚РІРѕ Р°СЂРіСѓРјРµРЅС‚РѕРІ: %u\n", argc);
+    for (int i = 0; i < argc; i++) printf(" РђСЂРіСѓРјРµРЅС‚ %u: %s\n", i+1, argv[i]);
     if (argc == 2)
     {
         FILE *file = fopen(argv[1], "rb");
         if (!file) return 0;
-        printf(" Файл: %s открыт на чтение", argv[1]);
+        printf(" Р¤Р°Р№Р»: %s РѕС‚РєСЂС‹С‚ РЅР° С‡С‚РµРЅРёРµ", argv[1]);
 
         fseek(file, 0, SEEK_END);
         long file_size = ftell(file);
-        printf("\n Размер файла (в байтах): %lu", file_size);
-        fseek(file, 0, SEEK_SET); // делаем сразу, чтобы потом не забыть ..
+        printf("\n Р Р°Р·РјРµСЂ С„Р°Р№Р»Р° (РІ Р±Р°Р№С‚Р°С…): %lu", file_size);
+        fseek(file, 0, SEEK_SET); // РґРµР»Р°РµРј СЃСЂР°Р·Сѓ, С‡С‚РѕР±С‹ РїРѕС‚РѕРј РЅРµ Р·Р°Р±С‹С‚СЊ ..
 
         char *file_text = (char*) malloc(file_size);
         printf("\n %s", file_text);
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         printf("Offset(h) |");
         for (unsigned char i = 0; i <= 15; i++) printf(" %02X", i);
         printf(" | ");
-        printf("Отображение в файле\n");
+        printf("РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РІ С„Р°Р№Р»Рµ\n");
         long offset = 0;
         for (long j = 0; j < 10; j++)
         {
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
             printf(" | ");
             for (long i = 0; i < 16/*file_size*/; i++) printf("%c", (unsigned char) file_text[offset+i]);
         }
-        free(file_text); // делаем сразу, чтобы потом не забыть ..
+        free(file_text); // РґРµР»Р°РµРј СЃСЂР°Р·Сѓ, С‡С‚РѕР±С‹ РїРѕС‚РѕРј РЅРµ Р·Р°Р±С‹С‚СЊ ..
         fclose(file);
     }
     CodeEditor();
