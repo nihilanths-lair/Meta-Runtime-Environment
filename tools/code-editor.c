@@ -28,12 +28,14 @@ int main(int argc, char *argv[])
         for (unsigned char i = 0; i <= 15; i++) printf(" %02X", i);
         printf(" | ");
         printf("Отображение в файле\n");
-        for (long j = 0; j < 2; j++)
+        long offset = 0;
+        for (long j = 0; j < 5; j++)
         {
-            printf("\n  %08X |", 0);
-            for (long i = 0; i <= 15/*file_size*/; i++) printf(" %02X", file_text[i]&0xFF);
+            offset = 16*j;
+            printf("\n  %08X |", 16*j);
+            for (long i = 0; i < 16/*file_size*/; i++) printf(" %02X", file_text[offset+i]&0xFF);
             printf(" | ");
-            for (long i = 0; i <= 15/*file_size*/; i++) printf("%c", file_text[i]);
+            for (long i = 0; i < 16/*file_size*/; i++) printf("%c", file_text[offset+i]);
         }
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
