@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         printf("\n Размер файла (в байтах): %lu", file_size);
         fseek(file, 0, SEEK_SET); // делаем сразу, чтобы потом не забыть ..
 
-        char *file_text = malloc(file_size);
+        char *file_text = (char*) malloc(file_size);
         printf("\n %s", file_text);
         printf("\n ");
         printf("Offset(h) |");
@@ -29,13 +29,13 @@ int main(int argc, char *argv[])
         printf(" | ");
         printf("Отображение в файле\n");
         long offset = 0;
-        for (long j = 0; j < 5; j++)
+        for (long j = 0; j < 10; j++)
         {
             offset = 16*j;
             printf("\n  %08X |", 16*j);
-            for (long i = 0; i < 16/*file_size*/; i++) printf(" %02X", file_text[offset+i]&0xFF);
+            for (long i = 0; i < 16/*file_size*/; i++) printf(" %02X", (unsigned char) file_text[offset+i]&0xFF);
             printf(" | ");
-            for (long i = 0; i < 16/*file_size*/; i++) printf("%c", file_text[offset+i]);
+            for (long i = 0; i < 16/*file_size*/; i++) printf("%c", (unsigned char) file_text[offset+i]);
         }
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
