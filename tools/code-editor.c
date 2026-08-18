@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 
-void CodeEditor();
+//void CodeEditor();
 char chrf(char chr);
 
 int main(int argc, char *argv[])
@@ -46,12 +46,12 @@ int main(int argc, char *argv[])
     _getch();
     return 0;
 }
-
+/*
 void CodeEditor()
 {
     return;
 }
-
+*/
 char chrf(char chr)
 {
     switch (chr){
