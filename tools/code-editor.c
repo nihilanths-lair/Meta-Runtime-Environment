@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <conio.h>
+#include <stdlib.h>
 
 void CodeEditor();
 
@@ -17,11 +18,12 @@ int main(int argc, char *argv[])
 
         fseek(file, 0, SEEK_END);
         long file_size = ftell(file);
-        printf(" Размер файла: %lu", file_size);
+        printf("\n Размер файла (в байтах): %lu", file_size);
         fseek(file, 0, SEEK_SET); // делаем сразу, чтобы потом не забыть ..
 
         char *file_text = malloc(file_size);
-        printf("%s", file_text);
+        printf("\n %s\n", file_text);
+        for (long i = 0; i < 5/*file_size*/; i++) printf("%c", file_text[i]);
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
     }
