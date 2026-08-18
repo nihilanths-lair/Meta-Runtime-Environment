@@ -9,18 +9,18 @@ char chrf(char chr);
 int main(int argc, char *argv[])
 {
     setlocale(0, "");
-    printf(" –ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –∞—Ä–≥—É–º–µ–Ω—Ç–æ–≤: %u\n", argc);
-    for (int i = 0; i < argc; i++) printf(" –ê—Ä–≥—É–º–µ–Ω—Ç %u: %s\n", i+1, argv[i]);
+    printf("  ÓÎË˜ÂÒÚ‚Ó ‡„ÛÏÂÌÚÓ‚: %u\n", argc);
+    for (int i = 0; i < argc; i++) printf(" ¿„ÛÏÂÌÚ %u: %s\n", i+1, argv[i]);
     if (argc == 2)
     {
         FILE *file = fopen(argv[1], "rb");
         if (!file) return 0;
-        printf(" –§–∞–π–ª: %s –æ—Ç–∫—Ä—ã—Ç –Ω–∞ —á—Ç–µ–Ω–∏–µ", argv[1]);
+        printf(" ‘‡ÈÎ: %s ÓÚÍ˚Ú Ì‡ ˜ÚÂÌËÂ", argv[1]);
 
         fseek(file, 0, SEEK_END);
         long file_size = ftell(file);
-        printf("\n –†–∞–∑–º–µ—Ä —Ñ–∞–π–ª–∞ (–≤ –±–∞–π—Ç–∞—Ö): %lu", file_size);
-        fseek(file, 0, SEEK_SET); // –¥–µ–ª–∞–µ–º —Å—Ä–∞–∑—É, —á—Ç–æ–±—ã –ø–æ—Ç–æ–º –Ω–µ –∑–∞–±—ã—Ç—å ..
+        printf("\n –‡ÁÏÂ Ù‡ÈÎ‡ (‚ ·‡ÈÚ‡ı): %lu", file_size);
+        fseek(file, 0, SEEK_SET); // ‰ÂÎ‡ÂÏ Ò‡ÁÛ, ˜ÚÓ·˚ ÔÓÚÓÏ ÌÂ Á‡·˚Ú¸ ..
 
         char *file_text = /*(char*)*/ malloc(file_size);
         fread(file_text, sizeof (char), file_size, file);
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
         printf("Offset(h) |");
         for (unsigned char i = 0; i <= 15; i++) printf(" %02X", i);
         printf(" | ");
-        printf("–û—Ç–æ–±—Ä–∞–∂–µ–Ω–∏–µ –≤ —Ñ–∞–π–ª–µ\n");
+        printf("ŒÚÓ·‡ÊÂÌËÂ ‚ Ù‡ÈÎÂ\n");
         long offset = 0;
         for (long j = 0; j < 10; j++)
         {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
             printf(" | ");
             for (long i = 0; i < file_size; i++) printf("%c", /*(unsigned char)*/ chrf(file_text[offset+i]));
         }
-        free(file_text); // –¥–µ–ª–∞–µ–º —Å—Ä–∞–∑—É, —á—Ç–æ–±—ã –ø–æ—Ç–æ–º –Ω–µ –∑–∞–±—ã—Ç—å ..
+        free(file_text); // ‰ÂÎ‡ÂÏ Ò‡ÁÛ, ˜ÚÓ·˚ ÔÓÚÓÏ ÌÂ Á‡·˚Ú¸ ..
         fclose(file);
     }
     //CodeEditor();
@@ -62,4 +62,5 @@ char chrf(char chr)
     case '\r':
         return ' ';
     }
+    return chr;
 }
