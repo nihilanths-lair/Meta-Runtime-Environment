@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         fseek(file, 0, SEEK_SET); // делаем сразу, чтобы потом не забыть ..
 
         char *file_text = malloc(file_size);
-        // ... //
+        printf("%s", file_text);
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
     }
