@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
     }
-    CodeEditor();
+    //CodeEditor();
     _getch();
     return 0;
 }
@@ -56,6 +56,7 @@ char chrf(char chr)
 {
     switch (chr){
     case 0:
+    case '\a':
     case '\t':
     case '\n':
     case '\r':
