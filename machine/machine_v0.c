@@ -106,7 +106,7 @@ do \
 _0x00: /* Копирование M2M (MOV) | Длина: 5 байт */\
 {\
     printf(" _0x00 | MOV\n");\
-    m2m[*(unsigned short*)&_fm[1]] = m2m[*(unsigned short*)&_fm[2]];\
+    m2m[*(unsigned short*)&_fm[1]] = m2m[*(unsigned short*)&_fm[3]];\
     _fm += 5;\
     goto *_fde_1[_fm[0]];\
 }\
@@ -153,9 +153,9 @@ _0xFC: /* Запись байта в файл | Длина: 5 байт */\
 _0xFD: /* Открытие файла | Длина: 7 байт */\
 {\
     printf(" _0xFD | Открытие файла\n");\
-    unsigned short path_addr = (*unsigned short*)&_fm[1];\
-    unsigned short mode_addr = (*unsigned short*)&_fm[3];\
-    unsigned short desc_addr = (*unsigned short*)&_fm[5];\
+    unsigned short path_addr = *(unsigned short*)&_fm[1];\
+    unsigned short mode_addr = *(unsigned short*)&_fm[3];\
+    unsigned short desc_addr = *(unsigned short*)&_fm[5];\
     FILE *fp = fopen((char*)&m2m[path_addr], (char*)&m2m[mode_addr]);\
     *(FILE**)&m2m[desc_addr] = fp;\
     _fm += 7;\
@@ -166,7 +166,7 @@ _0xFE: /* Чтение байта из файла | Длина: 5 байт */\
 {\
     printf(" _0xFE | Чтение байта из файла\n");\
     FILE *fp = *(FILE**)&m2m[*(unsigned short*)&_fm[1]];\
-    unsigned short target_addr = (*unsigned short*)&_fm[3];\
+    unsigned short target_addr = *(unsigned short*)&_fm[3];\
     if (fp) m2m[target_addr] = (unsigned char)fgetc(fp);\
     _fm += 5;\
     goto *_fde_1[_fm[0]];\
