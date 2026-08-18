@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
         char *file_text = malloc(file_size);
         printf("\n %s", file_text);
         printf("\n ");
-        for (long i = 0; i <= 6/*file_size*/; i++) printf("%c", file_text[i]);
+        for (long i = 0; i <= 15/*file_size*/; i++) printf("%c", file_text[i]);
         printf("\n");
-        for (long i = 0; i <= 6/*file_size*/; i++) printf(" %02X", file_text[i]);
+        for (long i = 0; i <= 15/*file_size*/; i++) printf(" %02X", file_text[i]&0xFF);
         free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
     }
