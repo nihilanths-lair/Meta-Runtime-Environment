@@ -14,6 +14,15 @@ int main(int argc, char *argv[])
         FILE *file = fopen(argv[1], "rb");
         if (!file) return 0;
         printf(" Файл: %s открыт на чтение", argv[1]);
+
+        fseek(file, 0, SEEK_END);
+        long file_size = ftell(file);
+        printf(" Размер файла: %lu", file_size);
+        fseek(file, 0, SEEK_SET); // делаем сразу, чтобы потом не забыть ..
+
+        char *file_text = malloc(file_size);
+        // ... //
+        free(file_text); // делаем сразу, чтобы потом не забыть ..
         fclose(file);
     }
     CodeEditor();
