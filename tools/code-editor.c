@@ -1,11 +1,9 @@
-void CodeEditor()
-{
-    return;
-}
-
 #include <stdio.h>
 #include <locale.h>
 #include <conio.h>
+
+void CodeEditor();
+
 int main(int argc, char *argv[])
 {
     setlocale(0, "");
@@ -14,4 +12,9 @@ int main(int argc, char *argv[])
     CodeEditor();
     _getch();
     return 0;
+}
+
+void CodeEditor()
+{
+    return;
 }
