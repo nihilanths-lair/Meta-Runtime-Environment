@@ -13,7 +13,7 @@ This software (**binary files, modules, components, and documentation**) is prov
 
 ***
 
-> ### 🇷🇺 Русская Версия / Russian Version
+> ### [🇷🇺] Русская Версия / Russian Version
 
 **Авторские права © 2026 [nihilanths-lair]. Все права защищены.**
 
