@@ -1,5 +1,5 @@
 📂 Структура (иерархия) каталогов
 
 meta-platform/<br>
-├── README.md
+├── README.md<br>
 │
