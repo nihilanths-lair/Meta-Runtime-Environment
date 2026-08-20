@@ -11,7 +11,7 @@ meta-platform/
 ├── tools/
 │   └── code-editor.md
 ├── meta-platform.cfg
-└── meta-platform.exe 🔒⚙🔨
+└── meta-platform.exe 🔒🔧🔨
 ```
 
 ### 🔒 Статус исходного кода и лицензирование
