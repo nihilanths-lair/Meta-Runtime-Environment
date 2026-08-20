@@ -1,6 +1,6 @@
 ## Meta Runtime Environment (MRE)
 
-> **Status:** `🔒 Proprietary / Closed Source`
+> **Status:** `🔒 Proprietary / Closed Source` <br>
 > **Licensing:** `⚖️ All Rights Reserved`
 
 ### 🗺️ Карта навигации: общая структура (иерархия)
