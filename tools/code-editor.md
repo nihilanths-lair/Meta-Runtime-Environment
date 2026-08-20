@@ -1,2 +1,1 @@
-──
-#### code-editor.md
+#### ── code-editor.md
