@@ -1,6 +1,8 @@
 ### Карта навигации: общая структура (иерархия).
 
-meta-platform/<br>
-├── README.md<br>
-└── tools/<br>
+```text
+meta-platform/
+├── README.md
+└── tools/
     └── code-editor.md
+```
