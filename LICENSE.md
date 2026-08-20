@@ -1,6 +1,6 @@
 ## Proprietary License & Terms of Use
 
-> ### 📜 English Version
+> ### [🇺🇸] English Version
 
 **Copyright © 2026 [nihilanths-lair]. All rights reserved.**
 
