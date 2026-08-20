@@ -8,8 +8,9 @@
 ```text
 meta-platform/
 ├── README.md
-└── tools/
-    └── code-editor.md
+├── tools/
+│   └── code-editor.md
+└── meta-platform.exe
 ```
 
 ### 🔒 Статус исходного кода и лицензирование
