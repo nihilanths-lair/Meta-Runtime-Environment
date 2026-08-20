@@ -10,8 +10,8 @@ meta-platform/
 ├── README.md
 ├── tools/
 │   └── code-editor.md
-├── meta-platform.exe
-└── meta-platform.cfg
+├── meta-platform.cfg
+└── meta-platform.exe (поставлен на конвеер)
 ```
 
 ### 🔒 Статус исходного кода и лицензирование
