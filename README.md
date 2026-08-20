@@ -1,7 +1,9 @@
-![Source Code](https://shields.io / closed-red?style=for-the-badge)
+# Meta Runtime Environment (MRE)
+
+![Source Code](https://shields.io)
 ![License](https://shields.io)
 
-### Карта навигации: общая структура (иерархия).
+### 🗺️ Карта навигации: общая структура (иерархия)
 
 ```text
 meta-platform/
