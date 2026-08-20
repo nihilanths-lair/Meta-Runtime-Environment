@@ -9,7 +9,7 @@
 meta-platform/
 ├── README.md
 ├── tools/
-│   ├── code-editor.c
+│   ├── code-editor.c (open-source)
 │   └── code-editor.exe 🔒💽
 ├── meta-platform.cfg
 └── meta-platform.exe 🔒💽
