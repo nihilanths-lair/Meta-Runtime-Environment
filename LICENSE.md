@@ -1,4 +1,4 @@
-# Proprietary License & Terms of Use
+## Proprietary License & Terms of Use
 
 > ### 📜 English Version
 
