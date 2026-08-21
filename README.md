@@ -1,4 +1,6 @@
 ## Meta Runtime Environment (MRE)
+
+### [Другие названия]
 ## Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
