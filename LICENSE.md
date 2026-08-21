@@ -8,7 +8,7 @@
 
 This software (**binary files, modules, components, and documentation**) is provided on an **"as-is"** basis for runtime use only. 
 
-* **Platform Source Code:** The source code of the entire platform, including compilation tools (`conv`, `code-editor`) and the virtual machine runtime (`machine_v0`), is strictly **proprietary and closed**.
+* **Platform Source Code:** The source code of the entire platform, including compilation tools (`conv`) and the virtual machine runtime, is strictly **proprietary and closed**.
 * **Restrictions:** Unauthorized copying, distribution, modification, merging, tampering, or reverse engineering of the binaries is **strictly prohibited**.
 
 ***
