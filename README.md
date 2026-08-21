@@ -8,8 +8,8 @@
 ```text
 meta-platform/
 ├── README.md
-├── tools/
-│   ├── code-editor.c (open-source)
+├── tools/ (open-source)
+│   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
 ├── meta-platform.cfg
 └── meta-platform.exe 🔒💽
