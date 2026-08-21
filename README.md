@@ -1,7 +1,6 @@
 ## Meta Runtime Environment (MRE)
 <h3>
  Другие названия:<br>
- <br>
  Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.<br>
  Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.<br>
  Execution & Translation Framework (ETF) — Фреймворк трансляции и исполнения.<br>
