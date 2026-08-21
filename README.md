@@ -1,11 +1,11 @@
 ## Meta Runtime Environment (MRE)
 
-#### [ Другие названия ]
-#### Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.
-#### Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.
-#### Execution & Translation Framework (ETF) — Фреймворк трансляции и исполнения.
-#### Computational Environment Generator (CEG) — Генератор вычислительных сред.
-#### Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
+[ Другие названия ]
+Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.
+Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.
+Execution & Translation Framework (ETF) — Фреймворк трансляции и исполнения.
+Computational Environment Generator (CEG) — Генератор вычислительных сред.
+Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
 > **Licensing:** `⚖️ All Rights Reserved`
