@@ -2,6 +2,7 @@
 
 #### [ Другие названия ]
 #### Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.
+#### Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.
 #### Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
