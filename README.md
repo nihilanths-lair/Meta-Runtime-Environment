@@ -13,7 +13,8 @@
 
 ### 🗺️ Карта навигации: общая структура (иерархия)
 
-```text
+<pre>
+<!-- ```text -->
 meta-platform/
 ├── README.md
 ├── tools/ (open-source)
@@ -22,7 +23,8 @@ meta-platform/
 ├── meta-platform.cfg
 ├── meta-platform.exe (cli) 🔒💽
 └── <s>meta-platform.exe (gui)</s>
-```
+<!-- ``` -->
+</pre>
 
 ### 🔒 Статус исходного кода и лицензирование
 
