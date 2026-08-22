@@ -15,14 +15,14 @@
 
 <pre>
 <!-- ```text -->
-meta-platform/
+mre/
 ├── README.md
 ├── tools/ (open-source)
 │   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
-├── meta-platform.cfg
-├── meta-platform.exe (cli) 🔒💽
-└── <s>meta-platform.exe (gui)</s>
+├── mre.exe.cfg
+├── mre.exe (cli) 🔒💽
+└── <s>mre.exe (gui)</s>
 <!-- ``` -->
 </pre>
 
