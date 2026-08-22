@@ -1,6 +1,6 @@
 ### MMIPDT: Modifiable Modular Infrastructure Providing Development Tools
 
-[MMICCE — Modifiable Modular Infrastructure for Compiler Construction and Execution]
+[MMICCE — Modifiable Modular Infrastructure for Compiler Construction and Execution / Модифицируемая модульная инфраструктура для создания и выполнения компиляторов]
 
 **MMIPDT** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
 
