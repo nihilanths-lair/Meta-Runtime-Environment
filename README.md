@@ -1,4 +1,4 @@
-^Meta-platform / Meta-environment
+^Meta-platform (mp.exe) / Meta-environment (me.exe)
 
 ### MMIPDT: Modifiable Modular Infrastructure Providing Development Tools
 
