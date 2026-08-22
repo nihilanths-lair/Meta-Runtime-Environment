@@ -11,6 +11,18 @@ Below is the architectural map of the infrastructure. Strikethrough items repres
 * **Proprietary & Closed Source:** The core infrastructure components, binaries, and the main runtime routing engine are strictly proprietary.
 * **Modifiable Integration:** MMIPDT provides isolated interfaces allowing developers to build and hook custom DSL (Domain-Specific Language) or GPL extensions without violating the core closed-source integrity.
 
+<!--
+MMIPDT: Модифицируемая модульная инфраструктура, предоставляющая инструменты разработки.
+MMIPDT — это высокопроизводительная, модифицируемая и модульная инфраструктура, разработанная для предоставления надежных инструментов разработки и адаптируемой среды выполнения. 
+
+Структура проекта
+Ниже представлена ​​архитектурная схема инфраструктуры. Зачеркнутые элементы обозначают запланированные компоненты или временные проекты, которые не активны на текущем этапе инициализации. 
+
+Принципы лицензирования и архитектуры
+Собственная разработка с закрытым исходным кодом: основные компоненты инфраструктуры, исполняемые файлы и главный механизм маршрутизации во время выполнения являются строго конфиденциальными.
+Модифицируемая интеграция: MMIPDT предоставляет изолированные интерфейсы, позволяющие разработчикам создавать и подключать пользовательские DSL (предметно-ориентированные языки программирования) или расширения GPL без нарушения основной целостности закрытого исходного кода.
+-->
+
 > **Status:** `🔒 Proprietary / Closed Source` <br>
 > **Licensing:** `⚖️ All Rights Reserved`
 
