@@ -4,7 +4,7 @@
  Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.<br>
  Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.<br>
  Computational Environment Generator (CEG) — Генератор вычислительных сред.<br>
- Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
+ Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.<br>
  Modular Architecture Providing Development Tools (MAPDT) — Модульная архитектура, предоставляющая инструменты разработки.
 </h4>
 
