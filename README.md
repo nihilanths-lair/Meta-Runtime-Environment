@@ -20,7 +20,7 @@ mre/
 ├── tools/ (open-source)
 │   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
-├── mre.exe.cfg
+├── mre.cfg
 ├── mre.exe (cli) 🔒💽
 └── <s>mre.exe (gui)</s>
 <!-- ``` -->
