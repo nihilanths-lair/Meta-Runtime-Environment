@@ -1,5 +1,3 @@
-## Meta Runtime Environment (MRE)
-
 ### MMIPD: Modifiable Modular Infrastructure Providing Development Tools
 
 **MMIPD** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
