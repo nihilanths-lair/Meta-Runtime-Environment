@@ -30,9 +30,9 @@ MMIPDT — это высокопроизводительная, модифици
 
 <pre>
  mmipdt/
- ├── <s>bin/</s>             <-- Скрытая от пользователя папка с ядрами
- │   ├── <s>mmipdt-cli.exe</s>  <-- Настоящий CLI-движок
- │   └── <s>mmipdt-gui.exe</s>  <-- Настоящий GUI-интерфейс
+ ├── <s>bin/</s>
+ │   ├── <s>mmipdt-cli.exe</s>
+ │   └── <s>mmipdt-gui.exe</s>
  ├── <s>cli/</s>
  │   ├── <s>mmipdt-cli.exe</s>
  │   └── <s>mmipdt.exe</s>
