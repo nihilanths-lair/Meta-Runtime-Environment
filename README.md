@@ -30,9 +30,6 @@ MMIPDT — это высокопроизводительная, модифици
 
 <pre>
  mmipdt/
- ├── <s>bin/</s>
- │   ├── <s>mmipdt-cli.exe</s>
- │   └── <s>mmipdt-gui.exe</s>
  ├── <s>cli/</s>
  │   ├── <s>mmipdt-cli.exe</s>
  │   └── <s>mmipdt.exe</s>
