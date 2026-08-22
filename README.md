@@ -16,7 +16,8 @@
 <pre>
  mre/
  ├── cli/
- │   └── <s>mre.exe (cli)</s>
+ ├── <s>mre-cli.exe</s>
+ │   └── <s>mre.exe</s>
  ├── gui/ Графическая версия (появится позже)
  │   ├── <s>mre-gui.exe</s>
  │   └── <s>mre.exe</s>
