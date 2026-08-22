@@ -21,9 +21,8 @@ meta-platform/
 │   └── code-editor.exe 🔒💽
 ├── meta-platform.cfg
 ├── meta-platform.exe (cli) 🔒💽
-└──
+└── <s>meta-platform.exe (gui)</s>
 ```
-```<s>meta-platform.exe (gui)</s>```
 
 ### 🔒 Статус исходного кода и лицензирование
 
