@@ -29,11 +29,11 @@
  │   └── code-editor.exe 🔒💽
  ├── <s>ui/</s>
  │   ├── <s>cli/</s>
- │   │    ├── <s>mre-cli.exe</s>
- │   │    └── <s>mre.exe</s>
+ │   │   ├── <s>mre-cli.exe</s>
+ │   │   └── <s>mre.exe</s>
  │   ├── <s>gui/</s>
- │   |    ├── <s>mre-gui.exe</s>
- │   |    └── <s>mre.exe</s>
+ │   |   ├── <s>mre-gui.exe</s>
+ │   |   └── <s>mre.exe</s>
  │   ├── <s>mre-gui.exe</s>
  │   └── <s>mre.exe</s>
  ├── LICENSE.md
