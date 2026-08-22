@@ -5,6 +5,7 @@
  Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.<br>
  Computational Environment Generator (CEG) — Генератор вычислительных сред.<br>
  Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.
+ Modular Architecture Providing Development Tools (MAPDT) — Модульная архитектура, предоставляющая инструменты разработки.
 </h4>
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
