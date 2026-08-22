@@ -23,7 +23,7 @@ meta-platform/
 ├── meta-platform.exe (cli) 🔒💽
 └──
 ```
-<s>meta-platform.exe (gui)</s>
+```<s>meta-platform.exe (gui)</s>```
 
 ### 🔒 Статус исходного кода и лицензирование
 
