@@ -1,13 +1,17 @@
 ## Meta Runtime Environment (MRE)
-<h4>
- Другие названия:<br>
- Runtime & Toolchain Platform (RTP) — Платформа сред исполнения и инструментария разработки.<br>
- Execution & Translation Platform (ETP) — Платформа трансляции и исполнения.<br>
- Computational Environment Generator (CEG) — Генератор вычислительных сред.<br>
- Managed Runtime & Toolchain Architecture (MRTA) — Архитектура управляемых сред исполнения и инструментариев разработки.<br>
- Modifiable Modular Architecture Providing Development Tools (MMAPDT) — Модифицируемая модульная архитектура, предоставляющая инструменты разработки.<br>
- Modifiable Modular Infrastructure Providing Development Tools (MMIPD) — Модифицируемая модульная инфраструктура, предоставляющая инструменты разработки.
-</h4>
+
+### MMIPD: Modifiable Modular Infrastructure Providing Development Tools
+
+**MMIPD** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
+
+### Project Structure
+
+Below is the architectural map of the infrastructure. Strikethrough items represent planned components or temporary drafts that are not active in the current initialization phase. 
+
+### Licensing & Architecture Principles
+
+* **Proprietary & Closed Source:** The core infrastructure components, binaries, and the main runtime routing engine are strictly proprietary.
+* **Modifiable Integration:** MMIPD provides isolated interfaces allowing developers to build and hook custom DSL (Domain-Specific Language) or GPL extensions without violating the core closed-source integrity.
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
 > **Licensing:** `⚖️ All Rights Reserved`
