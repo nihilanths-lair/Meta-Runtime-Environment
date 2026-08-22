@@ -18,10 +18,10 @@
 mre/
 ├── gui/
 │   └── <s>mre-gui.exe</s> <-- Графическая версия (появится позже)
-├── README.md
 ├── tools/ (open-source)
 │   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
+├── README.md
 ├── mre.cfg
 └── mre.exe (cli) 🔒💽  <-- Консольная версия (всегда под рукой в корне)
 <!-- ``` -->
