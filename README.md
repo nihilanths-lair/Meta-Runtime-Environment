@@ -17,8 +17,9 @@
  mre/
  ├── cli/
  │   └── <s>mre.exe (cli)</s>
- ├── gui/
- │   └── <s>mre-gui.exe</s> <-- Графическая версия (появится позже)
+ ├── gui/ Графическая версия (появится позже)
+ │   ├── <s>mre.exe</s>
+ │   └── <s>mre-gui.exe</s>
  ├── tools/ (open-source)
  │   ├── code-editor.c
  │   └── code-editor.exe 🔒💽
