@@ -1,17 +1,37 @@
 ### MMIPDT: Modifiable Modular Infrastructure Providing Development Tools
 
-<s>^MMICCE — Modifiable Modular Infrastructure for Compiler Construction and Execution?</s>
+**MMIPDT** is a multi-layered, high-performance ecosystem designed as a flexible foundation for compiler construction, toolchain engineering, and application execution. 
 
-**MMIPDT** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
+The infrastructure is strategically architected into three distinct operational layers (or "camps") to balance core system modification with out-of-the-box developer utility. 
 
-### Project Structure
+### 🗺️ Ecosystem Roadmap & Architecture Layers
 
-Below is the architectural map of the infrastructure. Strikethrough items represent planned components or temporary drafts that are not active in the current initialization phase. 
+### 🛡️ Layer 1: Core Engine (The MMICCE Camp)
 
-### Licensing & Architecture Principles
+* **Definition:** Modifiable Modular Infrastructure for Compiler Construction and Execution.
+* **Target Audience:** Core system architects and compiler engineers.
+* **Purpose:** Handles low-level bytecode compilation, optimization passes, memory management, and virtual machine execution. This is the deepest layer where the core logic of the computational platform is defined and modified.
 
-* **Proprietary & Closed Source:** The core infrastructure components, binaries, and the main runtime routing engine are strictly proprietary.
-* **Modifiable Integration:** MMIPDT provides isolated interfaces allowing developers to build and hook custom DSL (Domain-Specific Language) or GPL extensions without violating the core closed-source integrity.
+### 🛠️ Layer 2: Developer Suite (The MMIPDT Camp)
+
+* **Definition:** Modifiable Modular Infrastructure Providing Development Tools.
+* **Target Audience:** Application developers and tool creators.
+* **Purpose:** Acts as an SDK built on top of the Core Engine. It provides high-level tools like the unified launcher, code-editor.exe, linters, and resource packagers. Developers work here to build end-user software without needing to touch compiler internals.
+
+### 🕹️ Layer 3: Runtime Environment (The MMIRE Camp)
+
+* **Definition:** Modifiable Modular Infrastructure Runtime Environment.
+* **Target Audience:** End-users and players.
+* **Purpose:** A lightweight, stripped-down distribution containing only the core execution engine and configuration routing. It contains zero development tools and is optimized solely for stable, maximum-performance execution of compiled applications or games.
+
+### 🗂️ Project Structure Blueprint
+
+Below is the integrated architectural map. Strikethrough items represent components that are planned for the upcoming implementation phases. 
+
+### 🔐 Licensing Principles
+
+* **Proprietary Core:** The underlying infrastructure engines, binaries, and routing mechanisms remain strictly closed-source and proprietary.
+* **Isolated Modifiability:** The infrastructure exposes safe abstraction boundaries, allowing developers to create custom DSL (Domain-Specific Language) or GPL extensions without exposing the proprietary core.
 
 <!--
 MMIPDT: Модифицируемая модульная инфраструктура, предоставляющая инструменты разработки.
