@@ -15,16 +15,16 @@
 
 <pre>
 <!-- ```text -->
-mre/
-├── gui/
-│   └── <s>mre-gui.exe</s> <-- Графическая версия (появится позже)
-├── tools/ (open-source)
-│   ├── code-editor.c
-│   └── code-editor.exe 🔒💽
-├── LICENSE.md
-├── README.md
-├── mre.cfg
-└── mre.exe (cli) 🔒💽  <-- Консольная версия (всегда под рукой в корне)
+ mre/
+ ├── gui/
+ │   └── <s>mre-gui.exe</s> <-- Графическая версия (появится позже)
+ ├── tools/ (open-source)
+ │   ├── code-editor.c
+ │   └── code-editor.exe 🔒💽
+ ├── LICENSE.md
+ ├── README.md
+ ├── mre.cfg
+ └── mre.exe (cli) 🔒💽  <-- Консольная версия (всегда под рукой в корне)
 <!-- ``` -->
 </pre>
 
