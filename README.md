@@ -20,7 +20,7 @@ meta-platform/
 │   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
 ├── meta-platform.cfg
-└── meta-platform.exe 🔒💽
+└── meta-platform.exe (cli) 🔒💽
 ```
 
 ### 🔒 Статус исходного кода и лицензирование
