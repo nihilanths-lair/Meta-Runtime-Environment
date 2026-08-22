@@ -31,8 +31,8 @@ MMIPDT — это высокопроизводительная, модифици
 <pre>
  mmipdt/
  ├── tools/ (open-source)
- │   ├── code-editor.c
- │   └── code-editor.exe 🔒💽
+ │   ├── <s>code-editor.c</s>
+ │   └── <s>code-editor.exe</s>
  ├── <s>ui/</s>
  │   ├── <s>cli/</s>
  │   │   ├── <s>mmipdt-cli.exe</s>
