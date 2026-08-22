@@ -1,6 +1,6 @@
-### MMIPD: Modifiable Modular Infrastructure Providing Development Tools
+### MMIPDT: Modifiable Modular Infrastructure Providing Development Tools
 
-**MMIPD** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
+**MMIPDT** is a high-performance, modifiable, and modular infrastructure designed to deliver robust development tools and an adaptable runtime environment. 
 
 ### Project Structure
 
@@ -9,7 +9,7 @@ Below is the architectural map of the infrastructure. Strikethrough items repres
 ### Licensing & Architecture Principles
 
 * **Proprietary & Closed Source:** The core infrastructure components, binaries, and the main runtime routing engine are strictly proprietary.
-* **Modifiable Integration:** MMIPD provides isolated interfaces allowing developers to build and hook custom DSL (Domain-Specific Language) or GPL extensions without violating the core closed-source integrity.
+* **Modifiable Integration:** MMIPDT provides isolated interfaces allowing developers to build and hook custom DSL (Domain-Specific Language) or GPL extensions without violating the core closed-source integrity.
 
 > **Status:** `🔒 Proprietary / Closed Source` <br>
 > **Licensing:** `⚖️ All Rights Reserved`
