@@ -45,7 +45,7 @@ MMIPDT — это высокопроизводительная, модифици
  │   └── <s>mmipdt.exe</s>
  ├── LICENSE.md
  ├── README.md
- ├── mmipdt.cfg
+ ├── <s>mmipdt.cfg</s>
  ├── <s>mmipdt.com</s>  <-- Консольная версия (срабатывает в CMD/PowerShell)
  └── <s>mmipdt.exe</s>  <-- Графическая версия (срабатывает при клике в проводнике)
 </pre>
