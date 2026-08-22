@@ -21,8 +21,9 @@ mre/
 │   ├── code-editor.c
 │   └── code-editor.exe 🔒💽
 ├── mre.cfg
-├── mre.exe (cli) 🔒💽
-└── <s>mre.exe (gui)</s>
+├── mre.exe (cli) 🔒💽  <-- Консольная версия (всегда под рукой в корне)
+└── gui/
+    └── <s>mre-gui.exe</s> <-- Графическая версия (появится позже)
 <!-- ``` -->
 </pre>
 
