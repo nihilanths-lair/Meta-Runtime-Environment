@@ -17,34 +17,34 @@ Below is the architectural map of the infrastructure. Strikethrough items repres
 ### 🗺️ Карта навигации: общая структура (иерархия)
 
 <pre>
- mre/
+ mmipdt/
  ├── <s>bin/</s>             <-- Скрытая от пользователя папка с ядрами
- │   ├── <s>mre-cli.exe</s>  <-- Настоящий CLI-движок
- │   └── <s>mre-gui.exe</s>  <-- Настоящий GUI-интерфейс
+ │   ├── <s>mmipdt-cli.exe</s>  <-- Настоящий CLI-движок
+ │   └── <s>mmipdt-gui.exe</s>  <-- Настоящий GUI-интерфейс
  ├── <s>cli/</s>
- │   ├── <s>mre-cli.exe</s>
- │   └── <s>mre.exe</s>
+ │   ├── <s>mmipdt-cli.exe</s>
+ │   └── <s>mmipdt.exe</s>
  ├── <s>gui/</s>
- │   ├── <s>mre-gui.exe</s>
- │   └── <s>mre.exe</s>
+ │   ├── <s>mmipdt-gui.exe</s>
+ │   └── <s>mmipdt.exe</s>
  ├── tools/ (open-source)
  │   ├── code-editor.c
  │   └── code-editor.exe 🔒💽
  ├── <s>ui/</s>
  │   ├── <s>cli/</s>
- │   │   ├── <s>mre-cli.exe</s>
- │   │   └── <s>mre.exe</s>
+ │   │   ├── <s>mmipdt-cli.exe</s>
+ │   │   └── <s>mmipdt.exe</s>
  │   ├── <s>gui/</s>
- │   |   ├── <s>mre-gui.exe</s>
- │   |   └── <s>mre.exe</s>
- │   ├── <s>mre-cli.exe</s>
- │   ├── <s>mre-gui.exe</s>
- │   └── <s>mre.exe</s>
+ │   |   ├── <s>mmipdt-gui.exe</s>
+ │   |   └── <s>mmipdt.exe</s>
+ │   ├── <s>mmipdt-cli.exe</s>
+ │   ├── <s>mmipdt-gui.exe</s>
+ │   └── <s>mmipdt.exe</s>
  ├── LICENSE.md
  ├── README.md
- ├── mre.cfg
- ├── <s>mre.com</s>  <-- Консольная версия (срабатывает в CMD/PowerShell)
- └── <s>mre.exe</s>  <-- Графическая версия (срабатывает при клике в проводнике)
+ ├── mmipdt.cfg
+ ├── <s>mmipdt.com</s>  <-- Консольная версия (срабатывает в CMD/PowerShell)
+ └── <s>mmipdt.exe</s>  <-- Графическая версия (срабатывает при клике в проводнике)
 </pre>
 
 ### 🔒 Статус исходного кода и лицензирование
