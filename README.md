@@ -27,6 +27,9 @@
  ├── tools/ (open-source)
  │   ├── code-editor.c
  │   └── code-editor.exe 🔒💽
+ ├── <s>ui/</s>
+ │   ├── <s>mre-gui.exe</s>
+ │   └── <s>mre.exe</s>
  ├── LICENSE.md
  ├── README.md
  ├── mre.cfg
